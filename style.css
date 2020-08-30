@@ -1,0 +1,314 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px; }
+
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #ec715f; }
+  header .header_inner {
+    display: flex;
+    justify-content: space-between;
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto; }
+    header .header_inner .header_left img {
+      width: auto;
+      height: 70px; }
+    header .header_inner .header_right nav {
+      display: flex;
+      align-items: center;
+      height: 100%; }
+      header .header_inner .header_right nav li {
+        margin: 0 30px;
+        list-style: none; }
+        header .header_inner .header_right nav li a {
+          font-size: 1rem;
+          color: #fafafa; }
+
+.mainVisual {
+  position: relative;
+  width: 100%;
+  height: 650px;
+  background-image: url(img/mv.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .mainVisual .mainVisual_title {
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    color: #fafafa;
+    transform: translateX(-50%); }
+    .mainVisual .mainVisual_title h1 {
+      font-size: 4rem;
+      font-weight: bold;
+      margin-bottom: 10px; }
+    .mainVisual .mainVisual_title p {
+      font-size: 1.25rem;
+      text-align: center; }
+
+main h2 {
+  width: 100%;
+  padding-top: 90px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center; }
+main h3 {
+  font-size: 1.5rem; }
+main .underber {
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 30px;
+  background-color: #ec715f; }
+main p {
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 1.5rem;
+  padding-bottom: 30px; }
+main .col-4 {
+  padding: 0; }
+main .portfolio {
+  background-color: #eceff1; }
+  main .portfolio .container {
+    width: 920px;
+    padding: 0;
+    color: #000000; }
+    main .portfolio .container .row {
+      width: 920px;
+      margin: 0;
+      padding-bottom: 90px; }
+      main .portfolio .container .row .production {
+        padding: 0; }
+        main .portfolio .container .row .production .production_img {
+          height: 250px;
+          margin-right: 10px;
+          margin-bottom: 10px;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat; }
+        main .portfolio .container .row .production .bg-1 {
+          background-image: url(img/sketch.jpg); }
+        main .portfolio .container .row .production .bg-2 {
+          background-image: url(img/websuku.png); }
+        main .portfolio .container .row .production .bg-3 {
+          background-image: url(img/write.jpg);
+          margin-right: 0; }
+        main .portfolio .container .row .production .bg-4 {
+          background-image: url(img/webcamp.png); }
+        main .portfolio .container .row .production .bg-5 {
+          background-image: url(img/talk.jpg); }
+        main .portfolio .container .row .production .bg-6 {
+          background-image: url(img/webcamp-mother.png);
+          margin-right: 0; }
+main .feature .container {
+  width: 980px;
+  padding: 0;
+  margin: 0 auto;
+  padding-bottom: 90px; }
+  main .feature .container .row {
+    width: 980px; }
+    main .feature .container .row .col-12 .feature_item, main .feature .container .row .col-md-4 .feature_item {
+      width: 320px;
+      height: auto;
+      margin: 0 auto;
+      text-align: center; }
+      main .feature .container .row .col-12 .feature_item h3, main .feature .container .row .col-md-4 .feature_item h3 {
+        padding: 10px 0;
+        text-align: center; }
+      main .feature .container .row .col-12 .feature_item p, main .feature .container .row .col-md-4 .feature_item p {
+        text-align: left;
+        padding-bottom: 0;
+        margin-bottom: 0; }
+main .profile {
+  background-color: #eceff1; }
+  main .profile .container {
+    width: 1024px;
+    padding: 0;
+    padding-bottom: 90px; }
+    main .profile .container .profile_img {
+      text-align: center; }
+      main .profile .container .profile_img img {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%; }
+    main .profile .container .profile_text h3 {
+      margin-bottom: 5px; }
+    main .profile .container .profile_text p {
+      margin-bottom: 1.5rem;
+      padding-bottom: 0;
+      text-align: left; }
+      main .profile .container .profile_text p:last-child {
+        margin-bottom: 0; }
+main .contact .container {
+  width: 800px;
+  padding: 0;
+  padding-bottom: 90px; }
+  main .contact .container .contact_text {
+    padding-left: 100px; }
+    main .contact .container .contact_text p {
+      padding: 0;
+      margin-bottom: 1.5rem;
+      text-align: left; }
+    main .contact .container .contact_text i {
+      padding-right: 20px; }
+
+footer p {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  margin-bottom: 0;
+  background-color: #ec715f;
+  color: #fafafa; }
+
+@media screen and (max-width: 767px) {
+  header {
+    height: 50px; }
+    header .header_inner {
+      width: 90%; }
+      header .header_inner .header_left img {
+        height: 50px;
+        width: auto; }
+      header .header_inner .header_right {
+        position: relative;
+        width: 50px;
+        height: 50px; }
+        header .header_inner .header_right nav {
+          display: none; }
+        header .header_inner .header_right .c-button {
+          position: relative;
+          display: inline-block;
+          text-decoration: none;
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          border: none;
+          background-color: transparent;
+          cursor: pointer; }
+        header .header_inner .header_right .p-hamburger {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          width: 40px;
+          height: 40px;
+          margin: auto;
+          border-radius: 5px;
+          border: 1px solid #f9d8ae;
+          box-shadow: 0 0 2rem transparent;
+          outline: none;
+          -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out; }
+        header .header_inner .header_right .p-hamburger:hover,
+        header .header_inner .header_right .p-hamburger:focus {
+          box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.5); }
+        header .header_inner .header_right .p-hamburger__line {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          margin: auto;
+          width: 18px;
+          height: 2px;
+          background-color: #f9d8ae;
+          -webkit-transition: inherit;
+          transition: inherit; }
+        header .header_inner .header_right .p-hamburger__line::before,
+        header .header_inner .header_right .p-hamburger__line::after {
+          position: absolute;
+          display: block;
+          width: 100%;
+          height: 100%;
+          background-color: inherit;
+          content: '';
+          -webkit-transition: inherit;
+          transition: inherit; }
+        header .header_inner .header_right .p-hamburger__line::before {
+          top: -5px; }
+        header .header_inner .header_right .p-hamburger__line::after {
+          top: 5px; }
+        header .header_inner .header_right .p-hamburger[aria-expanded="true"] .p-hamburger__line {
+          background-color: transparent; }
+        header .header_inner .header_right .p-hamburger[aria-expanded="true"] .p-hamburger__line::before,
+        header .header_inner .header_right .p-hamburger[aria-expanded="true"] .p-hamburger__line::after {
+          top: 0;
+          background-color: #f9d8ae; }
+        header .header_inner .header_right .p-hamburger[aria-expanded="true"] .p-hamburger__line::before {
+          -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+          transform: rotate(45deg); }
+        header .header_inner .header_right .p-hamburger[aria-expanded="true"] .p-hamburger__line::after {
+          -webkit-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg); }
+        header .header_inner .header_right .u-visuallyHidden {
+          position: absolute;
+          white-space: nowrap;
+          width: 1px;
+          height: 1px;
+          overflow: hidden;
+          border: 0;
+          padding: 0;
+          clip: rect(0 0 0 0);
+          clip-path: inset(50%);
+          margin: -1px; }
+
+  .mainVisual {
+    background-image: url(img/code.png); }
+    .mainVisual .mainVisual_title {
+      width: 90%; }
+      .mainVisual .mainVisual_title h1 {
+        font-size: 2.5rem;
+        text-align: center; }
+      .mainVisual .mainVisual_title p {
+        font-size: 1.2rem; }
+
+  main .portfolio {
+    width: 100%; }
+    main .portfolio .container {
+      width: 90%; }
+      main .portfolio .container .row {
+        width: 100%; }
+        main .portfolio .container .row .production:nth-child(odd) {
+          display: none; }
+  main .feature {
+    width: 100%; }
+    main .feature .container {
+      width: 90%; }
+      main .feature .container .row {
+        width: 100%;
+        margin: 0 auto; }
+        main .feature .container .row .col-12 {
+          margin-bottom: 10px; }
+  main .profile {
+    width: 100%; }
+    main .profile .container {
+      width: 90%; }
+      main .profile .container .row {
+        width: 100%;
+        margin: 0 auto; }
+        main .profile .container .row h3 {
+          text-align: center; }
+        main .profile .container .row p {
+          text-align: center; }
+  main .contact {
+    width: 100%; }
+    main .contact .container {
+      width: 90%; }
+      main .contact .container .contact_text {
+        padding-left: 0;
+        text-align: center; }
+        main .contact .container .contact_text h3 {
+          text-align: center; }
+        main .contact .container .contact_text p {
+          text-align: center; }
+        main .contact .container .contact_text i {
+          padding-right: 0.5rem; }
+          main .contact .container .contact_text i:nth-child(4) {
+            padding-right: 0; } }
+
+/*# sourceMappingURL=style.css.map */
